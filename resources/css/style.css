@@ -1,0 +1,127 @@
+html {
+  font-size: 16px;
+}
+
+body {
+    max-width: 1000px;
+    font-family: Helvetica sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+/* navigation bar */
+.nav-bar {
+  display: flex;
+  align-items: center;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  height: 4em;
+  width: 100%;
+  background-color: #fff;
+  justify-content: space-between;
+}
+
+.nav-bar-logo {
+  display: flex;
+  align-items: center;
+  height: 2em;
+  width: auto;
+}
+
+.nav-bar-menu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+.nav-bar-menu li{
+  padding: 1em;
+}
+
+/* 1st section - learn something */
+
+.learn {
+  margin-top: 2em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.learn-img {
+  width: 60%;
+  height: auto;
+  margin: 2em 1.5em;
+}
+
+.learn-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: center;
+  width: 40%;
+}
+
+button.learn-box  {
+  text-align: center;
+  font-size: 1.5em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+/* 2nd section - practicing */
+
+.practicing {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.practicing-left-column img {
+  width: 60%;
+  height: auto;
+  padding: 2em 1.5em;
+  display: flex;
+  flex-direction: column;
+}
+
+.practicing-right-column {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.practicing-boxes {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+}
+
+.practicing-boxes-img img {
+  width: 35%;
+  height: auto;
+  margin-top: 1em;
+  margin-left: 1em;
+}
+
+.practicing-boxes-text {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+}
+
+.practicing-boxes-text p {
+  margin-bottom: 0.5em;
+  margin-top: 0.5em;
+}
+
+.practicing-boxes-text span {
+  text-decoration-color: #0000FF;
+}
