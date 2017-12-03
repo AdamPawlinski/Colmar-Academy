@@ -1,5 +1,7 @@
 html {
   font-size: 16px;
+  display: flex;
+  justify-content: center;
 }
 
 body {
@@ -53,12 +55,18 @@ a {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  width: 100%;
+  height: auto;
 }
 
 .learn-img {
   width: 60%;
   height: auto;
   margin: 2em 1.5em;
+}
+
+.learn-img img {
+  width: 100%;
 }
 
 .learn-box {
@@ -69,11 +77,12 @@ a {
   width: 40%;
 }
 
-button.learn-box  {
+.learn-box button {
   text-align: center;
-  font-size: 1.5em;
+  font-size: 1em;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
+  border-style: none;
 }
 
 /* 2nd section - practicing */
@@ -82,14 +91,23 @@ button.learn-box  {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  padding: 2em 0 2em 2em;
 }
 
-.practicing-left-column img {
+.practicing-left-column {
   width: 60%;
   height: auto;
-  padding: 2em 1.5em;
   display: flex;
   flex-direction: column;
+}
+
+
+.practicing-img {
+  padding: 0 1.5em 2em 0;
+}
+
+.practicing-img img {
+  width: 100%;
 }
 
 .practicing-right-column {
@@ -102,19 +120,30 @@ button.learn-box  {
   display: flex;
   flex-direction: row;
   align-content: center;
+  width: 100%;
 }
 
-.practicing-boxes-img img {
+.practicing-boxes-img {
   width: 35%;
   height: auto;
   margin-top: 1em;
   margin-left: 1em;
+  margin-bottom: 1em;
 }
+.practicing-boxes-img img {
+  width: 100%;
+}
+
+#practicing-boxes-img-first {
+  margin-top: 0;
+}
+
 
 .practicing-boxes-text {
   width: 65%;
-  display: flex;
+  display: inline-block;
   flex-direction: column;
+  justify-content: center;
 }
 
 .practicing-boxes-text p {
@@ -124,4 +153,131 @@ button.learn-box  {
 
 .practicing-boxes-text span {
   text-decoration-color: #0000FF;
+}
+
+/* 3rd section - start learning */
+
+.start-learning {
+  padding: 1em 3.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.start-learning h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.start-learning-boxes {
+  margin-top: 2em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: flex-start;
+}
+
+.start-learning-box {
+  margin: 1em;
+  display: flex;
+  flex-direction: column;
+  width: 29%;
+  height: auto;
+}
+
+.start-learning-box-img img {
+  width: 100%;
+}
+
+.start-learning-box-text {
+  margin: 1em 0 1.5em 1em;
+}
+
+.start-learning-box-text h3 {
+  margin-top: 0.5em 0 0.5em 0;
+}
+
+/* 4th section - thesis exibit */
+
+.thesis {
+  padding: 0 0 2em 1.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.thesis h1{
+  display: flex;
+  justify-content: center;
+}
+
+.thesis-columns {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2em;
+}
+
+.thesis-column-left {
+  width: 60%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;;
+  margin-right: 1.5em;
+}
+
+.thesis-video video{
+  width: 100%;
+  height:auto;
+  margin-bottom: 1.5em;
+}
+
+.thesis-column-right {
+  width: 40%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.thesis-column-right-boxes {
+  display: flex;
+  flex-direction: row;
+}
+
+.thesis-column-right-boxes-img {
+  margin: 1em 1em;
+  width: 35%;
+  height: auto;
+}
+
+.thesis-column-right-boxes-img img{
+  width: 100%;
+}
+
+.thesis-column-right-boxes-text {
+  width: 65%;
+  display: inline-block;
+}
+
+
+/* footer */
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1em 0 0 1.5em;
+  align-items: baseline;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  list-style-type: none;
+}
+.footer-links li {
+  padding: 1em;
 }

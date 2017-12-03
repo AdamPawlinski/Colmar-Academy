@@ -23,8 +23,8 @@
     </div>
 <!-- 1st section - learn something-->
     <div class="learn">
-      <div >
-        <img src=".\resources\images\banner.jpg" class="learn-img" alt="students at eht table"/>
+      <div class="learn-img">
+        <img src=".\resources\images\banner.jpg"  alt="students at eht table"/>
       </div>
       <div class="learn-box">
         <h1>Learn something new everyday</h1>
@@ -50,7 +50,7 @@
       </div>
       <div class="practicing-right-column">
         <div class="practicing-boxes">
-          <div class="practicing-boxes-img">
+          <div class="practicing-boxes-img" id="practicing-boxes-img-first">
             <img src=".\resources\images\information-orientation.jpg" alt=""/>
           </div>
           <div class="practicing-boxes-text">
@@ -82,111 +82,134 @@
       </div>
     </div>
 <!-- 3rd section - start learning-->
-    <div>
+    <div class="start-learning">
       <div>
         <h1>Start learning
         </h1>
       </div>
-      <div>
-        <div>
-          <img src=".\resources\images\course-software.jpg" alt=""/>
-        </div>
-        <div>
-          <h2>Software engineering</h2>
-          <h3>COURSES</h3>
-          <p>Web Development, Mobile, Development, iOT, API's
-          </p>
-        </div>
-        <div>
-          <div>
-            <img src=".\resources\images\course-computer-art.jpg" alt=""/>
+      <div class="start-learning-boxes">
+        <div class="start-learning-box">
+          <div class="start-learning-box-img">
+            <img src=".\resources\images\course-software.jpg" alt="computers"/>
           </div>
-          <h2>Compuer art</h2>
-          <h3>COURSES</h3>
-          <p>Imaging @Design, Web Designm Motion Graph&Visual Effects, Computer Animation
-          </p>
-        </div>
-        <div>
-          <div>
-            <img src=".\resources\images\course-design.jpg" alt=""/>
+          <div class="start-learning-box-text">
+            <h2>Software engineering</h2>
+            <h3>COURSES</h3>
+            <p>Web Development, Mobile, Development, iOT, API's
+            </p>
           </div>
-          <h2>Design</h2>
-          <h3>COURSES</h3>
-          <p>User Experience Desgin, User Research, Visual Design
-          </p>
         </div>
-        <div>
-          <div>
-            <img src=".\resources\images\course-data.jpg" alt=""/>
+        <div class="start-learning-box">
+          <div class="start-learning-box-img">
+            <img src=".\resources\images\course-computer-art.jpg" alt="phone"/>
           </div>
-          <h2>Data</h2>
-          <h3>COURSES</h3>
-          <p>Data Science, Big Data, SQL, Data Visualization
-          </p>
+          <div class="start-learning-box-text">
+            <h2>Computer art</h2>
+            <h3>COURSES</h3>
+            <p>Imaging @Design, Web Designm Motion Graph&Visual Effects, Computer Animation
+            </p>
+          </div>
         </div>
-        <div>
-          <div>
-            <img src=".\resources\images\course-business.jpg" alt=""/>
+        <div class="start-learning-box">
+          <div class="start-learning-box-img">
+            <img src=".\resources\images\course-design.jpg" alt="camera"/>
           </div>
-          <h2>Business</h2>
-          <h3>COURSES</h3>
-          <p>Product Development, Business Development, Startup
-          </p>
+          <div class="start-learning-box-text">
+            <h2>Design</h2>
+            <h3>COURSES</h3>
+            <p>User Experience Design, User Research, Visual Design
+            </p>
+          </div>
         </div>
-        <div>
-          <div>
-            <img src=".\resources\images\course-marketing.jpg" alt=""/>
+        <div class="start-learning-box">
+          <div class="start-learning-box-img">
+            <img src=".\resources\images\course-data.jpg" alt="laptop"/>
           </div>
-          <h2>Marketing</h2>
-          <h3>COURSES</h3>
-          <p>Analytics, Content Marketing, Mobile Marketing
-          </p>
+          <div class="start-learning-box-text">
+            <h2>Data</h2>
+            <h3>COURSES</h3>
+            <p>Data Science, Big Data, SQL, Data Visualization
+            </p>
+          </div>
+        </div>
+        <div class="start-learning-box">
+          <div class="start-learning-box-img">
+            <img src=".\resources\images\course-business.jpg" alt="chess"/>
+          </div>
+          <div class="start-learning-box-text">
+            <h2>Business</h2>
+            <h3>COURSES</h3>
+            <p>Product Development, Business Development, Startup
+            </p>
+          </div>
+        </div>
+        <div class="start-learning-box">
+          <div class="start-learning-box-img">
+            <img src=".\resources\images\course-marketing.jpg" alt="smartwatch"/>
+          </div>
+          <div class="start-learning-box-text">
+            <h2>Marketing</h2>
+            <h3>COURSES</h3>
+            <p>Analytics, Content Marketing, Mobile Marketing
+            </p>
+          </div>
         </div>
       </div>
     </div>
 
 <!-- 4th section - thesis exibit-->
-    <div>
+    <div class="thesis">
       <div>
         <h1>Thesis exhibit</h1>
       </div>
-      <div>
-        <div>
-          <video src=".\resources\videos\thesis.mp4" autoplay poster="posterimage.jpg">
-          </video>
+      <div class="thesis-columns">
+        <div class="thesis-column-left">
+          <div class="thesis-video">
+            <video src=".\resources\videos\thesis.mp4" autoplay poster="posterimage.jpg">
+            </video>
+          </div>
+          <div>
+              <h2>Reimagine urban</h2>
+          </div>
+          <div>
+            <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra,
+              per inceptos himenaeos. Aenean in scelerisque diam, et interdum tortor. Donec elit mauris, ultrices eget diam vitae, faucibus imperdiet quam. Proin mollis mattis tellus, non vestibulum enim cursus id. Cras tempus nibh leo, et pretium enim vehicula id. Nullam non luctus sapien.
+            </p>
+          </div>
         </div>
-        <div>
-            <h2>Reimagine urban</h2>
+        <div class="thesis-column-right">
+          <div class="thesis-column-right-boxes">
+            <div class="thesis-column-right-boxes-img">
+              <img src=".\resources\images\thesis-fisma.jpg" alt="designing"/>
+            </div>
+            <div class="thesis-column-right-boxes-text">
+              <h2>Fisma: Design and Prototpe</h2>
+              <p>Designer showcase of new prototype product
+              </p>
+            </div>
+          </div>
+          <div class="thesis-column-right-boxes">
+            <div class="thesis-column-right-boxes-img">
+              <img src=".\resources\images\thesis-now-and-then.jpg" alt="skyscraper"/>
+            </div>
+            <div class="thesis-column-right-boxes-text">
+              <h2>Now and then</h2>
+              <p>Research study about New York</p>
+            </div>
+          </div>
         </div>
-        <div>
-          <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra,
-            per inceptos himenaeos. Aenean in scelerisque diam, et interdum tortor. Donec elit mauris, ultrices eget diam vitae, faucibus imperdiet quam. Proin mollis mattis tellus, non vestibulum enim cursus id. Cras tempus nibh leo, et pretium enim vehicula id. Nullam non luctus sapien.
-          </p>
-        </div>
-      </div>
-      <div>
-        <div>
-          <img src=".\resources\images\thesis-fisma.jpg" alt=""/>
-        </div>
-        <h2>Fisma: Design and Prototpe</h2>
-        <p>Designer showcase of new prototype product
-        </p>
-      </div>
-      <div>
-        <div>
-          <img src=".\resources\images\thesis-now-and-then.jpg" alt=""/>
-        </div>
-        <h2>Now and then</h2>
-        <p>Research study about New York</p>
       </div>
     </div>
+
 <!-- footer-->
+
     <footer>
       <span>&copy;2016 Colmar Academy. All rights reserved</span>
       <nav>
-        <ul>
+        <ul class="footer-links">
           <li><a href="#">Terms</a></li>
           <li><a href="#">Privacy</a></li>
+        </ul>
       </nav>
     </footer>
   </body>
